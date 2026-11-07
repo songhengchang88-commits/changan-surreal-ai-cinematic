@@ -1,46 +1,46 @@
 {
-  "project": "Northern Metropolis: The Surreal Dreamscape (大宋盛景·云上凡尘)",
-  "description": "东方超现实主义运镜短片 · MuseCanvas 视频提示词工程",
+  "project": "Song Metropolis: The Living Chronicle (大宋人间·市井烟火)",
+  "description": "电影级历史写实主义运镜短片 · Muse 视频提示词工程 (彻底剔除浮夸玄幻，完全基于物理摄影光学与历史纪实质感)",
   "shots": [
     {
       "shot_id": 1,
-      "title": "天穹穿云 · 极速俯冲",
+      "title": "晨曦破晓 · 长街开市",
       "duration_s": 8,
-      "motion_level": 7,
-      "camera": "90度高速俯冲推镜 (Breakneck Dive Crane Tracking) ➔ 贴地拉平",
-      "positive_prompt": "Cinematic master shot, continuous fluid downward dive crane tracking shot descending smoothly from celestial golden clouds down to ancient bustling Chang'an capital during Song Dynasty, seamless continuous optical flow, surreal magical realism: floating ancient pavilions and inverted ethereal pagodas suspended weightlessly in golden sunrise mist, camera glides at high speed parting the clouds, swooping millimeters above glowing terracotta tiled rooftops, gently leveling out into crowded street at eye-level, thousands of citizens walking harmoniously, warm morning volumetric sunbeams, 18mm wide anamorphic lens, IMAX scale, breathtaking visual depth, photorealistic architectural details, stable temporal coherence, fluid physical momentum, 8k resolution --ar 16:9 --motion 7",
-      "negative_prompt": "sudden camera jerk, stutter, frame freeze, jitter, modern cars, modern skyscrapers, blurry, 3d video game, cartoon, plastic textures, dull lighting, abrupt cut",
-      "audio_cue": "0~8s 破空风声 ➔ 晨雾散去涌入市井万民喧闹嗡鸣 + 空灵青铜编钟"
+      "motion_level": 5,
+      "lens": "18mm 超广角，地面 1.5 米平稳滑轨",
+      "positive_prompt": "Cinematic wide tracking shot gliding smoothly down the central avenue of ancient Chang'an city during Song Dynasty at dawn, authentic historical realism, camera moving forward at eye level, weathered stone pavement reflecting morning moisture, wooden shops opening their timber doors, street vendors setting up plain coarse linen canopies, laborers carrying shoulder poles and wooden wheelbarrows, real atmospheric morning haze with soft directional sunlight filtering through, 35mm film grain, Arri Alexa 35 color science, natural contrast, ultra-realistic architectural details, zero CGI, zero fantasy, temporally coherent, steady fluid motion --ar 16:9 --motion 5",
+      "negative_prompt": "fantasy, magic, glowing, floating objects, sci-fi, modern buildings, asphalt road, 3d render, cartoon, oversaturated, plastic textures, blurry, stutter, abrupt camera shake",
+      "audio_cue": "开市木排门碰撞声 + 远处挑夫杂沓脚步与隐约晨钟"
     },
     {
       "shot_id": 2,
-      "title": "人间烟火 · 白汽化灵",
+      "title": "热汽扑面 · 早餐摊肆",
       "duration_s": 8,
-      "motion_level": 6,
-      "camera": "低空贴地斯坦尼康滑轨 (Low-Angle Steadicam Tracking) ➔ 仰角聚焦蒸笼",
-      "positive_prompt": "Smooth steadicam tracking shot pushing forward seamlessly through bustling Song Dynasty market street, pedestrians strolling, ornate wooden carts with brass bells, camera gently tilting up towards a steaming giant bamboo dumpling steamer, street vendor wearing linen robe lifting the lid: dense glowing white steam magically coalesces into living luminous golden koi fish and celestial white cranes soaring into the air above the roofs, children reaching out laughing in wonder, glowing light specks drifting gently, surreal Eastern fantasy, steady fluid camera motion, zero motion stutter, rich vibrant silk colors, volumetric lighting, photorealistic textures, 8k --ar 16:9 --motion 6",
-      "negative_prompt": "abrupt jump cut, camera shake, low framerate, stuttering motion, distorted hands, modern clothes, deformed animals, blurry face, plastic, oversaturated",
-      "audio_cue": "7.5s 小贩高亢叫卖（刚出屉的热炊饼、水晶蒸饺嘞！） + 11.0s 孩童追逐欢闹（快看白汽变大金鲤鱼飞走啦！） + 竹木掀盖拟音"
+      "motion_level": 5,
+      "lens": "35mm 中景推入，掀蒸笼白汽天然转场",
+      "positive_prompt": "Smooth cinematic medium dolly-in shot focusing on a bustling Song Dynasty outdoor food stall, a weathered 45-year-old Chinese male vendor in a coarse patched linen apron lifting a large steaming bamboo basket, thick dense hot white culinary steam billows out realistically filling the frame naturally, revealing freshly steamed buns with oily glossy skin, authentic street crowd passing by in background, warm natural morning side-light, authentic moist air, realistic sweat drops on vendor's forehead, lifelike skin pores and laugh lines, raw documentary realism, Kodak 5219 film texture, smooth 60fps physical motion, zero stutter --ar 16:9 --motion 5",
+      "negative_prompt": "magical creatures, glowing particles, anime, CGI steam, digital painting, modern clothing, smooth plastic skin, doll face, oversaturated colors, abrupt cut, jumpy camera",
+      "audio_cue": "07.5s 小贩粗粝沙哑叫卖：刚出屉的热炊饼、羊肉大包子嘞！皮薄馅大热腾腾——！"
     },
     {
       "shot_id": 3,
-      "title": "百态众生 · 金色声浪",
+      "title": "众生百态 · 真实微表情",
       "duration_s": 8,
-      "motion_level": 5,
-      "camera": "浅景深微距稳定推进 (Macro Dolly-in) ➔ 85mm f/1.4 肖像锁焦 ➔ 平滑横摇",
-      "positive_prompt": "Intimate cinematic portrait dolly-in shot, perfectly stable focal plane, elegant young Song Dynasty woman in pastel hanfu turning head gracefully with authentic smile, flawless anatomically correct facial features, hyper-realistic facial symmetry, consistent bone structure, natural eye blink, steady gaze, lifelike skin texture, 85mm portrait lens with creamy bokeh; seamless continuous pan to rugged blacksmith striking anvil where flying sparks magically blossom into showers of glowing golden peony petals; surreal phenomenon: visible transparent golden acoustic soundwave ripples expanding horizontally through the air from street vendors shouting, vibrating thousands of copper windchimes gently, warm golden hour sunlight, temporally coherent, zero facial morphing, masterpiece lighting, 8k --ar 16:9 --motion 5",
-      "negative_prompt": "facial distortion, melted face, deformed face, bad eyes, asymmetric pupils, shifting facial features, warped jaw, ugly expression, cross-eyed, plastic face, duplicate nose, mutant fingers, jittery motion, stutter, uncanny valley, flicker",
-      "audio_cue": "16.5s 逛街女子闲谈（这蜀锦料子真水灵） + 21.5s 同伴回应（前头还有吐火杂耍） + 万千铜风铃音波共振"
+      "motion_level": 4,
+      "lens": "85mm f/2.0 人像浅景深微距，天然微瑕毛孔，抓拍回眸",
+      "positive_prompt": "Intimate cinematic portrait tracking shot, 85mm lens at f/2.0 with creamy organic background bokeh, locking focus on an authentic 22-year-old Song Dynasty commoner woman wearing a simple coarse cotton hanfu, natural unadorned Asian face, lifelike skin texture with subtle pores and freckles, genuine candid smile turning head naturally, anatomically correct facial features, stable steady gaze; seamless pan across to children in patched clothes running barefoot splashing shallow puddle on stone street, and an authentic blacksmith striking red hot iron with real orange sparks flying, warm diffused daylight, historical drama cinematography, zero AI plastic skin, zero facial distortion, steady focal plane --ar 16:9 --motion 4",
+      "negative_prompt": "facial distortion, melted skin, plastic face, heavy modern makeup, beauty filter, anime doll, fake smile, crossed eyes, extra fingers, cartoon, floating sparks, morphing features",
+      "audio_cue": "11.0s 顽童光脚踩水嬉闹 + 16.5s 姑娘轻声细语 + 铁匠铺清脆打铁"
     },
     {
       "shot_id": 4,
-      "title": "星昼交融 · 万家灯火",
+      "title": "暮色苍茫 · 暖红灯火",
       "duration_s": 8,
-      "motion_level": 6,
-      "camera": "螺旋盘旋升空长镜头 (Epic Ascending Orbit) ➔ 全景俯瞰",
-      "positive_prompt": "Grand finale continuous ascending orbit shot rising smoothly from bustling street level into the breathtaking twilight sky, uninterrupted camera momentum, surreal cosmic phenomenon: sky divided in two, western sky ablaze in brilliant crimson and gold sunset, eastern sky deep velvet midnight glittering with the Milky Way galaxy, millions of warm glowing paper lanterns ascending gracefully from every courtyard like an inverted river of golden stars, illuminating miles of ancient Song Dynasty palaces, canals, and glowing night markets, ultimate Eastern prosperity and celestial grandeur, steady cinematic elevation, seamless optical flow, Arri Alexa 65 look, 8k resolution --ar 16:9 --motion 6",
-      "negative_prompt": "abrupt jump, stutter, camera drop, jerky motion, low resolution, dark apocalypse, modern electricity, neon glow, blur, noise, artifacts",
-      "audio_cue": "24.0s 茶楼小二迎客 + 26~32s 万人欢腾声浪 + 激昂古琴大鼓交响高潮"
+      "motion_level": 4,
+      "lens": "平缓升镜长镜头，至二楼茶肆木栏杆，夕阳晚霞与竹纸灯笼",
+      "positive_prompt": "Slow cinematic crane shot ascending gently from crowded street level up to second-floor wooden tea house balcony during golden hour dusk, soft realistic warm amber sunset sky, hand-crafted paper and bamboo street lanterns being lit one by one casting soft warm candlelight onto bustling pedestrians below, coarse fabric wine shop banner fluttering gently in the breeze, tea house patrons sitting by open timber windows chatting, deep atmospheric depth, grounded historical realism, 35mm anamorphic footage, rich earthy color palette, natural shadows, smooth continuous motion, masterpiece film stillness --ar 16:9 --motion 4",
+      "negative_prompt": "bright glowing neon lights, floating sky lanterns river, apocalyptic dark sky, CGI cityscape, modern electrical lights, blurry, jittery ascent, artificial saturation",
+      "audio_cue": "24.0s 茶楼小二嘹亮迎客 + 傍晚市井细碎人声与竹灯笼轻碰声"
     }
   ]
 }
