@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*$py.class
+temp_voices/
+.DS_Store
+Thumbs.db
